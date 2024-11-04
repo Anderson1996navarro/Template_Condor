@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="THcs.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" type="text/css">
+    <link type="text/css" href="css/v4/bootstrap.css" rel="stylesheet" media="all">
+
+    
+    <link rel="shortcut icon" href="bolita th.png" type="image/x-icon">
+
+    <title>Template-Condor</title>
+    <style>
+        .wrapper {
+            max-width: 600px;
+            width: 90%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(40, 197, 5);
+            color: white;
+            width: 100%;
+            height: auto;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .footer img {
+            max-width: 150px;
+            height: auto;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+        @media (max-width: 600px) {
+            .wrapper {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .language-select {
+            margin-bottom: 20px;
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1;
+        }
+
+        .dropdown button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown button:hover {
+            background-color: #0056b3;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .language-option {
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .language-option:hover {
+            background-color: #f1f1f1;
+        }
+
+        .language-option img {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Cambiado a center para centrar verticalmente */
+            flex-wrap: wrap;
+            padding: 20px;
+            background-image: url('as.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .card {
+            max-width: 30%;
+            width: 100%;
+            max-height: auto;
+            margin: 10px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .button {
+            display: block;
+            margin: 5px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+           
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .cabesa{
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(40, 197, 5);
+            color: white;
+            width: 100%;
+            height: auto;
+            left: 0;
+            right: 0;
+        }
+
+
+
+
+        .container {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Centra verticalmente los elementos */
+        text-align: center;
+        }
+
+    .imagen {
+    max-width: 80px; /* Ajusta el tamaño de la imagen según necesites */
+    margin-right: 20px; /* Espacio entre la imagen y el título */
+    }
+
+    .titulo {
+    font-size: 33px; /* Ajusta el tamaño de la fuente según necesites */
+    font-family: "Marcellus", serif;
+    color: #453f3f;
+    }
+
+
+    </style>
+</head>
+<body class="loginPage bodyLang-pt normalScreenMode" onload="setFocus();">
+
+
+    <header style="align-items: center; background-color: rgb(40, 197, 5);">
+
+        <div class="container">
+            <img src="bolita th.png" alt="Descripción de la imagen" class="imagen">
+            <h1 class="titulo">Tribu Condor</h1>
+        </div>
+
+    </header>
+
+     <main class="mainc">
+        <div class="card">
+            <h2>HQ</h2>
+            <a href="Enviar para N2.html" class="button" target="_blank">Template Inicial</a>
+            <a href="Enviar para N2.html" class="button" target="_blank">Envio para N2</a>
+            <a href="Cierre del Caso.html" class="button" target="_blank">Cierre del Ticket</a>
+        </div>
+    
+        <div class="card">
+            <h2>Administrativo</h2>
+            <a href="pagina1.html" class="button">Página 1</a>
+            <a href="pagina2.html" class="button">Página 2</a>
+            <a href="pagina3.html" class="button">Página 3</a>
+            <a href="pagina4.html" class="button">Página 4</a>
+        </div>
+    
+        <div class="card">
+            <h2>Legal One</h2>
+            <a href="pagina1.html" class="button">Página 1</a>
+            <a href="pagina2.html" class="button">Página 2</a>
+            <a href="pagina3.html" class="button">Página 3</a>
+            <a href="pagina4.html" class="button">Página 4</a>
+        </div>
+    </main>
+
+   <!-- <div class="dropdown">
+        <button>Selecionar Idioma</button>
+        <div class="dropdown-content">
+            <a href="Espanol.html">
+                <div class="language-option">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" alt="Español">
+                    Español
+                </div>
+            </a>
+            <a href="Portugues.html">
+                <div class="language-option">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg" alt="Português">
+                    Portugués
+                </div>
+            </a>
+            <a href="Ingles.html">
+                <div class="language-option">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="English">
+                    Inglés
+                </div>
+            </a>
+        </div>
+    </div> -->
+
+    <footer class="footer">
+        <div class="footerLink">
+            <a href="http://highq.com/" target="_blank">
+                <img alt="Thomson Reuters" title="Thomson Reuters" src="Thomson_Reuters_logo.svg.png">
+            </a>
+        </div>
+        <div>
+            <span class="fooCopyright" ><a href="https://www.thomsonreuters.com/" target="_blank" style="text-decoration: none; color: #000;">© 2024 Thomson Reuters</a>&nbsp;|</span>
+            <span class="fooPrivacyStatement"><a href="https://www.thomsonreuters.com/en/privacy-statement.html" target="_blank" style="text-decoration: none; color: #000;">Thomson Reuters Privacy Statement</a>&nbsp;|</span>
+            <span class="fooTermsofuse"><a onclick="return callTermsCondition();" style="color: #000;">Desenvolvido por Tribu Condor</a></span>
+            <span class="fooHelp">|&nbsp;<a href="#" onclick="mostrarAlerta(); return false;" style="text-decoration: none; color: #000;">Suporte Tecnico</a></span>
+        </div>
+    </footer> 
+
+    <script>
+        function changeLanguage() {
+            const lang = document.getElementById('language').value;
+            alert('Idioma cambiado a: ' + lang);
+        }
+
+        function mostrarAlerta() {
+            alert("Entre en contato com anderson.jnrodriguez@thomsonreuters.com via Teams para Ajuda o sugerir Mejoras");
+        }
+    </script>
+
+</body>
+</html>
